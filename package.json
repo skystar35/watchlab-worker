@@ -1,0 +1,12 @@
+
+{
+  "name": "watchlab-worker",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "worker.js",
+  "scripts": {"start": "node worker.js"},
+  "dependencies": {
+    "bullmq": "^5.12.0",
+    "ioredis": "^5.4.1"
+  }
+}
